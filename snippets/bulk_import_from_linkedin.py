@@ -10,7 +10,7 @@ def get_default_paths():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     return {
         'input_dir': os.path.join(script_dir, "linkedin-export"),
-        'output': os.path.join(script_dir, "..", "src", "constants", "index-example.js")
+        'output': os.path.join(script_dir, "..", "src", "constants", "index.js")
     }
 
 
