@@ -109,10 +109,6 @@ export const navLinks = [
     title: "Open Source",
   },
   {
-    id: "extraCurricular",
-    title: "Extra Curricular",
-  },
-  {
     id: "contactMe",
     title: "Contact Me",
   },
@@ -123,12 +119,48 @@ export const educationList = [
   {
     id: "education-1",
     icon: FaRegImage,
-    title: "",
-    degree: "",
-    duration: "",
+    title: "Sir C.R.R. College Of Engineering",
+    degree: "Bachelor of Technology - BTech",
+    duration: "2015 - 2019",
+    content1: "",
+    content2: "Exploring New Ideas",
+  },
+  {
+    id: "education-2",
+    icon: FaRegImage,
+    title: "School Name",
+    degree: "Degree Name",
+    duration: "Start Date - End Date",
+    content1: "Notes",
+    content2: "Activities",
+  },
+  {
+    id: "education-3",
+    icon: FaRegImage,
+    title: "Sasi Educational Institutions",
+    degree: "Higher Secondary (+2)",
+    duration: "2013 - 2015",
     content1: "",
     content2: "",
   },
+  {
+    id: "education-4",
+    icon: FaRegImage,
+    title: "School Name",
+    degree: "Degree Name",
+    duration: "Start Date - End Date",
+    content1: "Notes",
+    content2: "Activities",
+  },
+  {
+    id: "education-5",
+    icon: FaRegImage,
+    title: "Bhashyam Public School",
+    degree: "State Board",
+    duration: "2012 - 2013",
+    content1: "",
+    content2: "",
+  }
 ];
 
 // Add your past achievements here for example - rankings in hackathons/events
@@ -151,81 +183,174 @@ export const achievements = [
 // Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
   {
-    title: "Programming Languages",
-    items: [
-      {
-        id: "pl-1",
-        icon: SiPython,
-        name: "Python",
-      },
-    ],
-  },
-  {
-    title: "Frameworks/Libraries",
-    items: [
-      {
-        id: "f-1",
-        icon: SiDjango,
-        name: "Django",
-      },
-    ],
-  },
-  {
     title: "Tools",
     items: [
       {
         id: "t-1",
-        icon: SiGit,
-        name: "Git",
+        icon: FaRegImage,
+        name: "AWS tasks Troubleshooting",
       },
+      {
+        id: "t-2",
+        icon: FaRegImage,
+        name: "Microsoft Azure",
+      },
+      {
+        id: "t-3",
+        icon: FaRegImage,
+        name: "Migration Projects",
+      },
+      {
+        id: "t-4",
+        icon: FaRegImage,
+        name: "Terraform",
+      },
+      {
+        id: "t-5",
+        icon: FaRegImage,
+        name: "Jenkins",
+      },
+      {
+        id: "t-6",
+        icon: FaRegImage,
+        name: "Azure DevOps Services",
+      },
+      {
+        id: "t-7",
+        icon: FaRegImage,
+        name: "Gitlab",
+      },
+      {
+        id: "t-8",
+        icon: FaRegImage,
+        name: "Cloud Services",
+      },
+      {
+        id: "t-9",
+        icon: FaRegImage,
+        name: "Cloud Infrastructure",
+      },
+      {
+        id: "t-10",
+        icon: FaRegImage,
+        name: "Shell Scripting",
+      },
+      {
+        id: "t-11",
+        icon: FaRegImage,
+        name: "DevOps",
+      },
+      {
+        id: "t-12",
+        icon: FaRegImage,
+        name: "Ansible",
+      },
+      {
+        id: "t-13",
+        icon: FaRegImage,
+        name: "Kubernetes",
+      },
+      {
+        id: "t-14",
+        icon: FaRegImage,
+        name: "Amazon Web Services (AWS)",
+      }
     ],
-  },
+  }
 ];
 
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "",
+    organisation: "HCLTech",
     logo: placeholder,
     link: "",
     positions: [
       {
-        title: "Position 1",
-        duration: "Apr 2023 - Apr 2024",
+        title: "Senior Software Engineer",
+        duration: "Feb 2023 - Dec 2024",
         content: [
           {
-            text: "Text 1",
+            text: "Designed and implemented scalable AWS infrastructure for a global healthcare application, utilizing EC2, S3, RDS, and Lambda, reducing infrastructure costs by 20%.",
             link: "",
           },
           {
-            text: "Text 2",
+            text: "Automated CI/CD pipelines using Jenkins, GitLab, and AWS Code Pipeline, resulting in a 40% reduction in deployment times and improved code quality.",
             link: "",
           },
-        ],
-      },
-      {
-        title: "Position 2",
-        duration: "Apr 2022 - Present",
-        content: [
           {
-            text: "Text 1",
+            text: "Monitored cloud resources and optimized performance using CloudWatch, CloudTrail, Google Analytics, ensuring 99.9% system uptime.",
             link: "",
           },
+          {
+            text: "Led end-to-end migration of repositories from Bitbucket to GitLab, including updating CI/CD configurations and integrating GitLab Runners for automated deployments.",
+            link: "",
+          },
+          {
+            text: "Built CI/CD pipelines in GitLab to automate end-to-end deployment of a Node.js application to AWS Elastic Beanstalk, improving release speed and reducing manual intervention.",
+            link: "",
+          },
+          {
+            text: "Integrated code quality checks and testing stages in GitLab pipelines, ensuring reliable deployments and faster feedback for developers.",
+            link: "",
+          },
+          {
+            text: "Implemented security best practices across AWS services (IAM, VPC, Security Groups) in compliance with GDPR and HIPAA standards.",
+            link: "",
+          },
+          {
+            text: "Collaborated with cross-functional teams (Dev, QA, Security) to implement Infrastructure as Code (IaC) using Terraform and AWS CloudFormation.",
+            link: "",
+          }
         ],
-      },
+      }
     ],
   },
+  {
+    organisation: "MSys Technologies | Software Product Engineering Services",
+    logo: placeholder,
+    link: "",
+    positions: [
+      {
+        title: "Software Developer",
+        duration: "Apr 2022 - Jan 2023",
+        content: [
+          {
+            text: "",
+            link: "",
+          }
+        ],
+      }
+    ],
+  },
+  {
+    organisation: "Frontier Business systems Pvt. ltd.",
+    logo: placeholder,
+    link: "",
+    positions: [
+      {
+        title: "Cloud Support Engineer",
+        duration: "Nov 2019 - Mar 2022",
+        content: [
+          {
+            text: "",
+            link: "",
+          }
+        ],
+      }
+    ],
+  }
 ];
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
     id: "project-1",
-    title: "",
+    title: "Portfolio",
     github: "",
     link: "",
     image: placeholder,
-    content: "",
+    content: "Open source developer portfolio template with modern UI/UX. Developed by taking reference github profile",
     stack: [
       {
         id: "icon-1",
@@ -332,10 +457,10 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-  name: "Name",
-  githubUsername: "",
-  tagLine: "",
-  intro: "",
+    name: "Karapureddy Pooja Sree",
+    githubUsername: '',
+    tagLine: "AWS | DevOps Engineer | Terraform | Jenkins | Kubernetes | CI/CD | Cloud Infrastructure | Open to Opportunities in USA",
+    intro: "This is a placeholder intro"
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
@@ -343,7 +468,7 @@ export const itemsToFetch = 20;
 
 // Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format.
 export const includedRepos = [
-  "publiclab/plots2",
-  "zulip/zulip",
-  "paritytech/polkadot-sdk",
+  "Pooja-Sree-K/singlevm",
+  "Pooja-Sree-K/devops",
+  "",
 ];
