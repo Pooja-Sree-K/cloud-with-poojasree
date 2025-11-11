@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { poojasree } from "../assets/pooja.png";
+import poojasree from "../assets/pooja.png";
 
 const Loading = () => {
   return (

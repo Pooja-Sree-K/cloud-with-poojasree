@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { close, menu } from "../assets";
-import { poojasree } from "../assets/pooja.png"
+import poojasree from "../assets/pooja.png"
 import { navLinks } from "../constants";
 import { scrollToSection } from "../lib/helperFunctions";
 import { motion } from "framer-motion";
