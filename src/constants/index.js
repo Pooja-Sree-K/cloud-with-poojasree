@@ -2,6 +2,9 @@ import {
   portfolio,
   crr,
   sasi,
+  HCLTech,
+  Frontier,
+  MsysTech,
 } from "../assets";
 
 import {
@@ -412,7 +415,7 @@ export const projects = [
     id: "project-1",
     title: "Portfolio",
     github: "https://github.com/Pooja-Sree-K/cloud-with-poojasree",
-    link: "",
+    link: "https://cloudwithpoojasree.netlify.app/",
     image: portfolio,
     content: "Open source developer portfolio template with modern UI/UX. Developed by taking reference github profile",
     stack: [
@@ -461,12 +464,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/<your-linkedin-id>/",
+    link: "https://www.linkedin.com/in/pooja-sree-karapureddy/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/<your-github-id>/",
+    link: "https://www.github.com/Pooja-Sree-K",
   },
   {
     id: "social-media-3",
@@ -478,7 +481,7 @@ export const socialMedia = [
 // Your professional summary
 export const aboutMe = {
     name: "Karapureddy Pooja Sree",
-    githubUsername: '',
+    githubUsername: 'Pooja-Sree-K',
     tagLine: 
       "AWS DevOps Engineer | Cloud Automation | CI/CD | Terraform | Kubernetes | Passionate about scalable infrastructure",
     intro: 

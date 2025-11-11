@@ -8,7 +8,6 @@ import crr from "./crr.jpeg";
 import sasi from "./sasi.jpeg";
 import Frontier from "./Frontier.jpeg";
 import MsysTech from "./MsysTech.png";
-import placeholder from "./placeholder.svg";
 import HCLTech from "./HCLTech.jpeg";
 
 export {
@@ -23,5 +22,4 @@ export {
   Frontier,
   MsysTech,
   sasi,
-  placeholder
 };
