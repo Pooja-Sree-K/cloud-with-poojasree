@@ -8,7 +8,6 @@ import {
   Education,
   SkillsAndExperience,
   Footer,
-  OpenSource,
   Projects,
   Loading,
 } from "./components";

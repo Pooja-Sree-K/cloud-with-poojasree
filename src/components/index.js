@@ -11,19 +11,14 @@ import Stats from "./Stats";
 import Loading from "./Loading";
 
 
-
 export {
     Navbar,
     Hero,
     Education,
     SkillsAndExperience,
     Projects,
-    OpenSource,
-    ExtraCurricular,
     Footer,
     Button,
     Stats,
     Loading,
-    BlogPosts,
-    Achievements,
 };
