@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import pooja from "../assets/pooja.png";
+import { poojasree } from "../assets/pooja.png";
 
 const Loading = () => {
   return (
@@ -15,7 +15,7 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={pooja} alt="Pooja Sree Karapureddy" className="w-[80px] h-[80px]" />
+      <img src={poojasree} alt="Pooja Sree" className="w-[80px] h-[80px]" />
     </motion.div>
   );
 };

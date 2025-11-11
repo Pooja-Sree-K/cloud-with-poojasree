@@ -1,18 +1,13 @@
 import {
   portfolio,
-  recruitment,
   crr,
   sasi,
-  icon,
-  placeholder,
 } from "../assets";
 
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillLinkedin,
   AiFillMail,
-  AiOutlineTwitter,
   AiFillHtml5,
   AiOutlineGitlab,
 } from "react-icons/ai";
@@ -28,7 +23,6 @@ import {
   SiNetlify,
   SiSlack,
   SiVercel,
-  SiGmail,
   SiDbeaver,
   SiGooglecloud,
   SiGrafana,
@@ -80,7 +74,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: FaRegImage,
+    icon: crr,
     title: "Sir C.R.R. College Of Engineering",
     degree: "Bachelor of Technology - BTech",
     duration: "2015 - 2019",
@@ -89,7 +83,7 @@ export const educationList = [
   },
   {
     id: "education-2",
-    icon: FaRegImage,
+    icon: sasi,
     title: "Sasi Educational Institutions",
     degree: "Higher Secondary (+2)",
     duration: "2013 - 2015",

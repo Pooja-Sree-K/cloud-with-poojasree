@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { close, menu } from "../assets";
-import pooja from "../assets/pooja.png"
+import { poojasree } from "../assets/pooja.png"
 import { navLinks } from "../constants";
 import { scrollToSection } from "../lib/helperFunctions";
 import { motion } from "framer-motion";
@@ -34,8 +34,8 @@ const Navbar = () => {
       {/* Logo */}
       <a href="#home">
         <img
-          src={pooja}
-          alt="Pooja Sree Karapureddy"
+          src={poojasree}
+          alt="Pooja Sree"
           className="w-[80px] h-[80px]"
         />
       </a>
