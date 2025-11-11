@@ -45,27 +45,16 @@ const App = () => {
                 <Hero />
               </div>
             </div>
-
-            <div
-              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
-            >
               <div className={`${styles.boxWidth}`}>
                 <SkillsAndExperience />
                 <Education />
               </div>
-            </div>
-            <Achievements />
-            <div
-              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
-            >
-              <div className={`${styles.boxWidth}`}>
-                <Projects />
-                <BlogPosts enabled={false} />
-                <OpenSource />
-                <ExtraCurricular />
+              <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
+                <div className={`${styles.boxWidth}`}>
+                  <Projects />
+                </div>
               </div>
-            </div>
-            <Footer />
+              <Footer />
           </motion.section>
         )}
       </AnimatePresence>
