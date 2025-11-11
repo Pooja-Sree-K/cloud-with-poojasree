@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { socialMedia, aboutMe } from "../constants";
-import pooja from "../assets/pooja.JPG";
+import pooja from "../assets/pooja.png";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
