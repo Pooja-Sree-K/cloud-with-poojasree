@@ -22,26 +22,40 @@ import {
   SiPython,
   SiCplusplus,
   SiC,
-  SiVisualstudiocode,
   SiGit,
+  SiAnsible,
   SiMysql,
   SiNetlify,
+  SiSlack,
+  SiVercel,
   SiGmail,
+  SiDbeaver,
   SiGooglecloud,
-  SiMicrosoftazure,
+  SiGrafana,
+  SiJira,
+  SiReact,
+  SiTailwindcss,
+  SiPrometheus,
+  SiTerraform,
+  SiKubernetes,
 } from "react-icons/si";
 
-import { FaHardHat, FaRust, FaRegImage } from "react-icons/fa";
+import { FaAws ,FaDocker, FaBitbucket, FaJenkins, FaHardHat, FaRegImage } from "react-icons/fa";
 
 import { IoIosNotificationsOutline } from "react-icons/io";
 
-import { FaGolang } from "react-icons/fa6";
+import { TbSql } from "react-icons/tb";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { VscAzure, VscAzureDevops } from "react-icons/vsc";
 
-export const resumeLink = "";
-export const callToAction = "https://www.linkedin.com/in/<your-linkedin-id>/";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+import { BiLogoVisualStudio } from "react-icons/bi";
+
+import { DiCss3, DiMsqlServer, } from "react-icons/di";
+
+export const resumeLink = 
+  "https://drive.google.com/file/d/1qekBojtKcxxBKEh8Rsh7GSvwO4HdWFUF/view?usp=drive_link";
+export const callToAction = "https://www.linkedin.com/in/pooja-sree-karapureddy/";
+export const repoLink = "https://github.com/Pooja-Sree-K/cloud-with-poojasree";
 
 export const navLinks = [
   {
@@ -53,16 +67,8 @@ export const navLinks = [
     title: "Education",
   },
   {
-    id: "achievements",
-    title: "Achievements",
-  },
-  {
     id: "projects",
     title: "Projects",
-  },
-  {
-    id: "openSource",
-    title: "Open Source",
   },
   {
     id: "contactMe",
@@ -84,143 +90,187 @@ export const educationList = [
   {
     id: "education-2",
     icon: FaRegImage,
-    title: "School Name",
-    degree: "Degree Name",
-    duration: "Start Date - End Date",
-    content1: "Notes",
-    content2: "Activities",
-  },
-  {
-    id: "education-3",
-    icon: FaRegImage,
     title: "Sasi Educational Institutions",
     degree: "Higher Secondary (+2)",
     duration: "2013 - 2015",
     content1: "",
     content2: "",
-  },
-  {
-    id: "education-4",
-    icon: FaRegImage,
-    title: "School Name",
-    degree: "Degree Name",
-    duration: "Start Date - End Date",
-    content1: "Notes",
-    content2: "Activities",
-  },
-  {
-    id: "education-5",
-    icon: FaRegImage,
-    title: "Bhashyam Public School",
-    degree: "State Board",
-    duration: "2012 - 2013",
-    content1: "",
-    content2: "",
   }
 ];
 
-// Add your past achievements here for example - rankings in hackathons/events
-export const achievements = [
-  {
-    id: "a-1",
-    icon: FaRegImage,
-    event: "",
-    position: "",
-    content1: "",
-    content2: "",
-    content3: "",
-    article: "",
-    project: "",
-    youtube: "",
-    github: "",
-  },
-];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
+  {
+    title: "Programming Languages",
+    items: [
+      {
+        id: "pl-1",
+        icon: SiPython,
+        name: "Python",
+      },
+      {
+        id: "pl-5",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "pl-7",
+        icon: SiCplusplus,
+        name: "C++",
+      },
+      {
+        id: "pl-10",
+        icon: SiC,
+        name: "C",
+      },
+      {
+        id: "pl-11",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "pl-12",
+        icon: DiCss3,
+        name: "CSS",
+      },
+      {
+        id: "pl-12",
+        icon: TbSql,
+        name: "SQL",
+      },
+    ],
+  },
+  {
+    title: "DevOps & Cloud Platforms",
+    items: [
+      {
+        id: "c-1",
+        icon: FaAws,
+        name: "AWS",
+      },
+      {
+        id: "c-2",
+        icon: SiGooglecloud,
+        name: "GCP",
+      },
+      {
+        id: "c-3",
+        icon: SiGrafana,
+        name: "Grafana",
+      },
+      {
+        id: "c-4",
+        icon: SiPrometheus,
+        name: "Prometheus",
+      },
+      {
+        id: "c-5",
+        icon: SiTerraform,
+        name: "Terraform",
+      },
+      {
+        id: "c-6",
+        icon: SiKubernetes,
+        name: "Kubernetes",
+      },
+      {
+        id: "c-7",
+        icon: FaDocker,
+        name: "Docker",
+      },
+      {
+        id: "c-8",
+        icon: FaJenkins,
+        name: "Jenkins",
+      },
+      {
+        id: "c-9",
+        icon: VscAzureDevops,
+        name: "Azure DevOps",
+      },
+      {
+        id: "c-10",
+        icon: SiAnsible,
+        name: "Ansible",
+      },
+    ],
+  },
   {
     title: "Tools",
     items: [
       {
         id: "t-1",
-        icon: FaRegImage,
-        name: "AWS tasks Troubleshooting",
+        icon: VscAzure,
+        name: "Azure",
       },
       {
         id: "t-2",
-        icon: FaRegImage,
-        name: "Microsoft Azure",
-      },
-      {
-        id: "t-3",
-        icon: FaRegImage,
-        name: "Migration Projects",
-      },
-      {
-        id: "t-4",
-        icon: FaRegImage,
-        name: "Terraform",
-      },
-      {
-        id: "t-5",
-        icon: FaRegImage,
-        name: "Jenkins",
-      },
-      {
-        id: "t-6",
-        icon: FaRegImage,
-        name: "Azure DevOps Services",
-      },
-      {
-        id: "t-7",
-        icon: FaRegImage,
-        name: "Gitlab",
-      },
-      {
-        id: "t-8",
-        icon: FaRegImage,
-        name: "Cloud Services",
-      },
-      {
-        id: "t-9",
-        icon: FaRegImage,
-        name: "Cloud Infrastructure",
+        icon: SiMysql,
+        name: "MySQL",
       },
       {
         id: "t-10",
-        icon: FaRegImage,
-        name: "Shell Scripting",
+        icon: SiDbeaver,
+        name: "DBeaver",
       },
       {
-        id: "t-11",
-        icon: FaRegImage,
-        name: "DevOps",
+        id: "t-3",
+        icon: BiLogoVisualStudio,
+        name: "VS Code",
       },
       {
-        id: "t-12",
-        icon: FaRegImage,
-        name: "Ansible",
+        id: "t-4",
+        icon: SiGit,
+        name: "Git",
       },
       {
-        id: "t-13",
-        icon: FaRegImage,
-        name: "Kubernetes",
+        id: "t-5",
+        icon: AiFillGithub,
+        name: "GitHub",
       },
       {
-        id: "t-14",
-        icon: FaRegImage,
-        name: "Amazon Web Services (AWS)",
-      }
+        id: "t-6",
+        icon: AiOutlineGitlab,
+        name: "Gitlab",
+      },
+      {
+        id: "t-7",
+        icon: SiNetlify,
+        name: "Netlify",
+      },
+      {
+        id: "t-8",
+        icon: SiVercel,
+        name: "Vercel",
+      },
+      {
+        id: "t-9",
+        icon: FaBitbucket,
+        name: "Bitbucket",
+      },
+      {
+        id: "t-10",
+        icon: SiJira,
+        name: "Jira",
+      },
+      {
+        id: "t-10",
+        icon: SiSlack,
+        name: "Slack",
+      },
     ],
-  }
+  },
 ];
-
+    
+      
+  
 // Add your current/past professional work experience here
 export const experiences = [
   {
     organisation: "HCLTech",
-    logo: placeholder,
-    link: "",
+    logo: HCLTech,
+    link: "https://www.hcltech.com/",
     positions: [
       {
         title: "Senior Software Engineer",
@@ -264,15 +314,27 @@ export const experiences = [
   },
   {
     organisation: "MSys Technologies | Software Product Engineering Services",
-    logo: placeholder,
-    link: "",
+    logo: MsysTech,
+    link: "https://www.aziro.com/",
     positions: [
       {
         title: "Software Developer",
         duration: "Apr 2022 - Jan 2023",
         content: [
           {
-            text: "",
+            text: "Developed automated CI/CD pipelines in Azure DevOps and GitHub Actions to streamline builds, tests, and deployments for multiple microservices",
+            link: "",
+          },
+          {
+            text: "Built and managed CI/CD pipelines using Azure Pipelines for multiple development teams, enabling automated builds, tests, security scans, and deployments",
+            link: "",
+          },
+          {
+            text: "Deployed Node.js and .NET Core applications to Azure App Services with full lifecycle automation",
+            link: "",
+          },
+          {
+            text: "Deployed microservices using Kubernetes deployment & service manifests in the Azure DevOps dashboard",
             link: "",
           }
         ],
@@ -281,19 +343,71 @@ export const experiences = [
   },
   {
     organisation: "Frontier Business systems Pvt. ltd.",
-    logo: placeholder,
-    link: "",
+    logo: Frontier,
+    link: "https://frontier.in/",
     positions: [
       {
-        title: "Cloud Support Engineer",
-        duration: "Nov 2019 - Mar 2022",
+        title: "Cloud Delivery",
+        duration: "Jan 2021 - Apr 2022",
         content: [
           {
-            text: "",
+            text: "Collaborated with the delivery team and delivered AWS-related servers to clients",
             link: "",
-          }
+          },
+          {
+            text: "Integrated CI/CD pipelines using GitHub Actions and AWS Code Pipeline to streamline deployments",
+            link: "",
+          },
+          {
+            text: "Provided cost-optimization recommendations that saved up to 25% in monthly bills for some clients",
+            link: "",
+          },
+          {
+            text: "Led end-to-end migration of Cloud Endure DR",
+            link: "",
+          },
+          {
+            text: "Automated routine tasks like snapshot backups, cleanup jobs, and health checks using Bash + AWS CLI & Lambda",
+            link: "",
+          },
         ],
-      }
+      },
+      {
+        title: "Cloud Operations Engineer",
+        duration: "Dec 2020 - Dec 2021",
+        content: [
+          {
+            text: "Promoted as Cloud Operations Engineer & worked on Delivery tasks like any new deployments in AWS & monitoring the new servers",
+            link: "",
+          },
+          {
+            text: "Obtained AWS Certifications",
+            link: "",
+          },
+          {
+            text: "Designed VPC architectures with subnets, security groups, and route tables tailored to each client’s networking requirements",
+            link: "",
+          },
+          {
+            text: "Provisioned EC2, RDS, S3, and CloudFront configurations to support web apps and APIs using Terraform",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Cloud Support Engineer",
+        duration: "Nov 2019 - Nov 2020",
+        content: [
+          {
+            text: "Supported the AWS accounts of multiple customers and troubleshooted any issues that occurred",
+            link: "",
+          },
+          {
+            text: "Created SOPs for Monitoring & AWS-related tasks",
+            link: "",
+          },
+        ],
+      },
     ],
   }
 ];
@@ -303,44 +417,30 @@ export const projects = [
   {
     id: "project-1",
     title: "Portfolio",
-    github: "",
+    github: "https://github.com/Pooja-Sree-K/cloud-with-poojasree",
     link: "",
-    image: placeholder,
+    image: portfolio,
     content: "Open source developer portfolio template with modern UI/UX. Developed by taking reference github profile",
     stack: [
       {
-        id: "icon-1",
-        icon: FaRegImage,
-        name: "Placeholder",
-      }
+        id: "proj10-icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "proj10-icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
+      },
+      {
+        id: "proj10-icon-3",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
     ],
   }
 ];
 
-// Add links to blogs here
-export const blogPosts = [
-  {
-    id: "post-1",
-    title: "Blog Post 01 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01",
-      },
-      {
-        id: "tag-2",
-        name: "tag 03",
-      },
-      {
-        id: "tag-3",
-        name: "tag 03",
-      },
-    ],
-  },
-];
 
 // Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
 export const stats = [
@@ -361,26 +461,6 @@ export const stats = [
   },
 ];
 
-// List out the extra curricular activities you have indulged in like - student clubs, joining research groups etc.
-export const extraCurricular = [
-  {
-    id: 1,
-    organisation: "",
-    title: "",
-    duration: "",
-    content: [
-      {
-        text: "",
-        link: "",
-      },
-      {
-        text: "",
-        link: "",
-      },
-    ],
-    logo: placeholder,
-  },
-];
 
 // Links to your social media profiles
 export const socialMedia = [
@@ -397,17 +477,7 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:<your-email-id>",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/<your-twitter-id>/",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/<your-instagram-id>/",
+    link: "mailto:work.poojasrikarapureddy@gmail.com",
   },
 ];
 
@@ -415,8 +485,10 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Karapureddy Pooja Sree",
     githubUsername: '',
-    tagLine: "AWS | DevOps Engineer | Terraform | Jenkins | Kubernetes | CI/CD | Cloud Infrastructure | Open to Opportunities in USA",
-    intro: "This is a placeholder intro"
+    tagLine: 
+      "AWS DevOps Engineer | Cloud Automation | CI/CD | Terraform | Kubernetes | Passionate about scalable infrastructure",
+    intro: 
+      "An AWS DevOps Engineer with over 5 years of experience in automating, deploying, and managing scalable cloud infrastructure I’m passionate about Infrastructure as Code,"
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
@@ -426,5 +498,4 @@ export const itemsToFetch = 20;
 export const includedRepos = [
   "Pooja-Sree-K/singlevm",
   "Pooja-Sree-K/devops",
-  "",
 ];

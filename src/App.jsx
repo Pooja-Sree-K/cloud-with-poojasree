@@ -7,13 +7,10 @@ import {
   Hero,
   Education,
   SkillsAndExperience,
-  ExtraCurricular,
   Footer,
   OpenSource,
   Projects,
-  BlogPosts,
   Loading,
-  Achievements,
 } from "./components";
 
 const App = () => {

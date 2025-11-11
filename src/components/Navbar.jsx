@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { close, parthmittal, menu } from "../assets";
+import { close, menu } from "../assets";
+import pooja from "../assets/pooja.JPG";
 import { navLinks } from "../constants";
 import { scrollToSection } from "../lib/helperFunctions";
 import { motion } from "framer-motion";
@@ -33,8 +34,8 @@ const Navbar = () => {
       {/* Logo */}
       <a href="#home">
         <img
-          src={parthmittal}
-          alt="Parth Mittal"
+          src={pooja}
+          alt="Pooja Sree Karapureddy"
           className="w-[80px] h-[80px]"
         />
       </a>
