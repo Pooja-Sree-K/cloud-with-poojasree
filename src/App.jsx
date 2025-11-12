@@ -45,10 +45,14 @@ const App = () => {
                 <Hero />
               </div>
             </div>
+            <div
+              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
+            >
               <div className={`${styles.boxWidth}`}>
                 <SkillsAndExperience />
                 <Education />
               </div>
+            </div>
               <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
                 <div className={`${styles.boxWidth}`}>
                   <Projects />
