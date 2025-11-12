@@ -81,8 +81,8 @@ export const educationList = [
     title: "Sir C.R.R. College Of Engineering",
     degree: "Bachelor of Technology - BTech",
     duration: "2015 - 2019",
-    content1: "",
-    content2: "Exploring New Ideas",
+    content1: "Participated in Internships / Online Certifications during college",
+    content2: "Actively participated in the NAAC accreditation event and contributed to organizing and supporting evaluation activities.",
   },
   {
     id: "education-2",
@@ -90,8 +90,8 @@ export const educationList = [
     title: "Sasi Educational Institutions",
     degree: "Higher Secondary (+2)",
     duration: "2013 - 2015",
-    content1: "",
-    content2: "",
+    content1: "Participated in science fairs, quiz competitions, and cultural events",
+    content2: "Joined Sasi Junior College through EAMCET and selected for AIEEE coaching",
   }
 ];
 
@@ -274,15 +274,11 @@ export const experiences = [
         duration: "Feb 2023 - Dec 2024",
         content: [
           {
-            text: "Designed and implemented scalable AWS infrastructure for a global healthcare application, utilizing EC2, S3, RDS, and Lambda, reducing infrastructure costs by 20%.",
+            text: "Designed and implemented scalable AWS infrastructure for a global healthcare application, utilizing EC2, S3, RDS, and Lambda.",
             link: "",
           },
           {
             text: "Automated CI/CD pipelines using Jenkins, GitLab, and AWS Code Pipeline, resulting in a 40% reduction in deployment times and improved code quality.",
-            link: "",
-          },
-          {
-            text: "Monitored cloud resources and optimized performance using CloudWatch, CloudTrail, Google Analytics, ensuring 99.9% system uptime.",
             link: "",
           },
           {
@@ -291,18 +287,6 @@ export const experiences = [
           },
           {
             text: "Built CI/CD pipelines in GitLab to automate end-to-end deployment of a Node.js application to AWS Elastic Beanstalk, improving release speed and reducing manual intervention.",
-            link: "",
-          },
-          {
-            text: "Integrated code quality checks and testing stages in GitLab pipelines, ensuring reliable deployments and faster feedback for developers.",
-            link: "",
-          },
-          {
-            text: "Implemented security best practices across AWS services (IAM, VPC, Security Groups) in compliance with GDPR and HIPAA standards.",
-            link: "",
-          },
-          {
-            text: "Collaborated with cross-functional teams (Dev, QA, Security) to implement Infrastructure as Code (IaC) using Terraform and AWS CloudFormation.",
             link: "",
           }
         ],
@@ -485,7 +469,7 @@ export const aboutMe = {
     tagLine: 
       "AWS DevOps Engineer | Cloud Automation | CI/CD | Terraform | Kubernetes | Passionate about scalable infrastructure",
     intro: 
-      "An AWS DevOps Engineer with over 5 years of experience in automating, deploying, and managing scalable cloud infrastructure I’m passionate about Infrastructure as Code,"
+      "An AWS DevOps Engineer with over 5 years of experience in automating, deploying, and managing scalable cloud infrastructure. I’m passionate about Infrastructure as Code,"
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
