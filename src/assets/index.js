@@ -1,5 +1,5 @@
 import pooja from "./pooja.png";
-import profilePic from "./profile-pic.JPG";
+import profilePic from "./profile-pic.jpeg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
